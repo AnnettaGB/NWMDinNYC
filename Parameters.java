@@ -32,10 +32,10 @@ public class Parameters
 	
 	//Comment in/out test parameters
 	//Sample Population Size:230-23000 in Commute region Richard 2020 Data 
-	//public static String popfile = "data/sample230.csv";
-	//public static String popfile = "data/sample2300.csv";
-	public static String popfile = "data/sample23k.csv";
-	//public static String popfile = "data/sample230k.csv";
+	//public static String popfile = "sample230.csv";
+	//public static String popfile = "sample2300.csv";
+	public static String popfile = "sample23k.csv";
+	//public static String popfile = "sample230k.csv";
 	
 	// Social Behavior Parameters from Agent Group Parameters
 	// indicates whether agents form groups -- either through the carPool method or individual nonroutine
@@ -58,21 +58,21 @@ public class Parameters
 	//===================================
 	
 	//1 Commute Road Network
-	public static String roadsShape = "data/Clean_Com_Road_NW_Richard.shp";
+	public static String roadsShape = "Clean_Com_Road_NW_Richard.shp";
 	//2 Commute Census Tracts
-	public static String censusShape = "data/censusNYcommute.shp";
+	public static String censusShape = "censusNYcommute.shp";
 	//3 Water
-	public static String waterShape = "data/NYCWater.shp";
+	public static String waterShape = "NYCWater.shp";
 	//4 Outer work places point
-	public static String outerwrkfile = "data/Rich_wrkid_out_May.csv";
+	public static String outerwrkfile = "Rich_wrkid_out_May.csv";
 	//5 Work Places and RID Full Study Area
-	public static String workfile = "data/Rich_wrk_rid_May.csv";
+	public static String workfile = "Rich_wrk_rid_May.csv";
 	//6 Schools and RID Full Study Area
-	public static String schoolfile = "data/Rich_Edu_school_rid_may.csv";
+	public static String schoolfile = "Rich_Edu_school_rid_may.csv";
 	//7 DayCare and RID Full Study Area
-	public static String daycarefile = "data/Rich_Edu_daycare_rid_May.csv";		
+	public static String daycarefile = "Rich_Edu_daycare_rid_May.csv";		
 	//8 Commuter Road ID for verification of the Road Network
-	public static String rdIDfile = "data/Rich_commute_ridrv1.csv";
+	public static String rdIDfile = "Rich_commute_ridrv1.csv";
 	
 	
 	//===================================
@@ -84,7 +84,7 @@ public class Parameters
 	// Trace & data storage
 	// viz data for visualization tools
 	public static boolean exportVizData = false;	// to record or not
-	public static String exportVizDataFilename = ("data/exportVizDataWTime.csv");
+	public static String exportVizDataFilename = ("exportVizDataWTime.csv");
 	public static int startVizData = 5*60; // 5*60 = 5AM
 	public static int stopVizData = 18*60; // 18*60;  // 18*60 = 6PM
 	
